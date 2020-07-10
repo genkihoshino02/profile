@@ -1,0 +1,238 @@
+<html>
+    <head>
+      <meta name="viewport" content="width=320, height=480, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"><!-- for smartphone. ここは一旦、いじらなくてOKです。 -->
+        <meta charset="utf-8"><!-- 文字コード指定。ここはこのままで。 -->
+        <title>星野 元希のプロフィール</title>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Work+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+        <style>
+            
+            body{
+                margin: 0 auto;
+                padding: 0;
+            }
+            .dancing{
+                font-family: 'Dancing Script', cursive;
+            }
+
+            .circle{
+                border-radius: 50%;
+            }
+           .top-wrapper{
+               background-image: url(../img/bgimage.jpg);
+               background-position: center;
+               background-size: cover;
+           }
+           .headline {
+            position: relative;
+            padding: 0.25em 1em;
+            border-top: solid 2px black;
+            border-bottom: solid 2px black;
+           width: 60%;
+           margin: 0 auto;
+           text-align: center!important;
+          }
+          .headline:before,.headline:after {
+            content: '';
+            position: absolute;
+            top: -7px;
+            width: 2px;
+            height: -webkit-calc(100% + 14px);
+            height: calc(100% + 14px);
+            background-color: black;
+          }
+          .headline:before {
+            left: 7px;
+          }
+          .headline:after {
+            right: 7px;
+          }
+
+          .hobbies{
+              display: flex;
+              
+          }
+          .hobby{
+              width: 20%;
+              margin: 0 auto;
+          }
+          .hobby p{
+              font-size: 13px;
+          }
+
+          .img-top{
+              text-align: center;
+          }
+        </style>
+    </head>
+
+    <body>
+
+ 
+        
+   
+        <div class="top-wrapper py-5 text-center">
+            <div class="container">
+            <h2 class="dancing">Welcome to my profile</h2>
+    <!-- 見出し 第１レベル -->
+    <!--（氏名）の公開を避ける場合はイニシャルやニックネームでOK-->
+    <h2 class="midashi_1 display-3"> 星野 元希のプロフィール </h2>
+
+
+    <!--自分を象徴するような画像を入れてみよう-->
+    <!--画像も同じフォルダにアップロードすること-->
+    <img class="py-4 circle" src="img/genkicontact.jpg" alt="自分を象徴する写真など" title="プロフィール画像" width="320px" ><br>
+     シヌログ祭りというお祭りに参加した時の写真です
+</div>
+</div>
+ 
+
+    
+    <div class="detail py-5 text-center">
+        <div class="container">
+    <!-- 見出し 第２レベル ・以下、h2レベルで項目を色々書いていきましょう -->
+    <!-- 自己紹介で言いたい項目を見出しにいれて、文章をつくりましょう。項目名は編集OK。項目を足してもOK。 -->
+    <h2 class="headline text-center">所属など</h2>
+    <br>
+    静岡大学工学部で化学・生物を専攻しています！<br>
+    大学では探検部・オリエンテーリング部・ボランティアサークルに所属していました。<br>
+   
+
+    <h2 class="headline text-center mt-5">趣味や属性</h2>
+    <br>
+    <div class="hobbies pt-5 row">
+        <div class="hobby col-sm-12 col-lg-3">
+            <img src="./img/cycling.jpg" alt="">
+            <h4>サイクリング</h4>
+            <p>台湾一周や京都ー東京サイクリングなどしたことがあります。</p>
+        </div>
+        <div class="hobby col-sm-12 col-lg-3">
+            <img src="./img/mountain.jpg" alt="">
+            <h4>登山</h4>
+            <p>高校の時にワンダーフォーゲル部でした。 <br>
+            南アルプスの山小屋で1か月住み込みアルバイトしたことがあります。</p>
+        </div>
+        <div class="hobby col-sm-12 col-lg-3">
+            <img src="./img/skate.PNG" alt="">
+            <h4>スケートボード</h4>
+            <p>エクササイズでスケートボードをしています。
+                <br>キックフリップという技ができます。
+            </p>
+        </div>
+        <div class="hobby col-sm-12 col-lg-3">
+            <img src="./img/english.jpg" alt="">
+            <h4>国際交流</h4>
+            <p>フィリピンにいる時は毎週イベントに参加していました。<br>
+                英語とスペイン語を勉強中です。
+            </p>
+        </div>
+    </div>
+
+
+    <!-- HTMLで出来る色々な表現を試す -->
+    <!-- ↑文字に意味を持たせることもできます。strong は太字。ググったりして色々と調べてみましょう -->
+    <!-- 例として今回は「リスト表示」を作ってみましょう。項目数が３で足りないなら足してもOKです -->
+    <!-- 番号をふるなら ol タグ、番号がいらないなら ul タグ で囲って、項目は li タグで括ります。 -->
+    <!-- ol ・ ul 片方でOK -->
+    <h2 class="headline text-center mt-5">●●トップ３</h2>
+    <br>
+    <strong class="py-3"> 私の好きなフィリピン料理のトップ３です！</strong><br>
+    <p>休学をして去年の9月から今年の5月までフィリピンに滞在していました！<br>
+    フィリピンに行った際は是非食べてみてください</p>
+    <!-- ↑文字に意味を持たせることもできます。strong は強調。太字になります。 -->
+    <ol class="mt-5">
+        <li style="font-weight: bold;  margin:0 auto; font-size:25px;" class="mb-5 ml-5">
+            <h3 style="width: 40%;">パンシットカントン</h3>
+            <p>一食50円程で食べられるフィリピン人のソウルフード</p>
+            <div class="img-top" >
+            <img class="text-center " src="./img/pancit.jpg" alt="" style="width: 50% ;">
+        </div>
+        </li>
+        <li style="font-weight: bold;  margin:0 auto; font-size:25px;" class="mb-5 ml-5">
+            <h3 style="width: 40%;">シシグ</h3>
+            <p>たまに無性に食べたくなる味</p>
+            <div class="img-top">
+                <img src="./img/sisigu.jpg" alt="">
+            </div>
+        </li>
+        <li style="font-weight: bold; margin:0 auto; font-size:25px;" class="mb-5 ml-5">
+            <h3 style="width: 40%;">レチョン</h3>
+            <p>パーティーの主役的存在、豚の解体賞は見物</p>
+            <div class="img-top">
+                <img src="./img/lechon.jpg" alt="">
+            </div>
+        </li>
+    </ol>
+ 
+
+ 
+
+    <hr>
+</div>
+</div>
+    <div class="others text-center">
+        <div class="container">
+    <!-- 以下は、見出しの名前は固定で、内容を編集してみましょう -->
+    <h2 class="pb-3">その他</h2>
+    <!-- 見出し 第３レベル -->
+    <h3 class="headline pm-4">使用PC</h3>
+    <br><!-- 編集して、自分の使うPCだけ残しましょう -->
+    Windows-dynabook
+
+    <br>
+    <h3 class="headline mt-5">PC利用経験や、普段の使い方</h3>
+    <br>毎日英語・プログラミング学習のために使っています！<br>
+    今は休学中で授業は受けていませんが、在学中は毎日レポートをWordで書いたりExcelを使ったりしていました。<br>
+    Web制作の勉強をこのパンデミック中に始めて、何件かWeb制作の案件をクラウドソーシングで経験したことがあります。
+    <br>以下が使用したことのあるプログラミング言語です↓<br>
+    HTML/CSS(Sass・Bootstrap)/JavaScript/Python/PHP/ExcelVBA
+    <br>
+    <br>まだまだプログラミング初心者なので今回のイベントでレベルを上げたいです！
+        
+    <br>
+    <h3 class="headline mt-5">自分の強みや弱みなど</h3>
+    <br><span class="display-4 mb-4 dancing"> strength</span><br>
+     <p>思い立ったらすぐ行動<br>
+    辛抱強い<br>
+    チャレンジャー <br>
+    おおらか 
+</p> 
+    <span class="display-4 dancing"> weakness</span><br>
+    <p>
+        飽き性 <br>
+        控え目 <br>
+
+    </p>
+
+    <h3 class="headline mt-5 ">TECH-BASE参加にあたり、意気込み</h3>
+    <p class="mb-5"><br>
+            チームで開発する経験をしたかったので、色々なアイデアを出し合って面白いものを作りたいです！<br>
+           よろしくお願いします！！！！！！！！！
+        </p>
+</div>
+</div>
+    <hr>
+    <div class="bottom">
+        <div class="container">
+    <a href="#midashi_1"> このページのTOPへ </a> ／ <a href="https://www.google.co.jp/" target="_blank"> ググる </a>
+
+    <hr>
+
+    <!-- 以下は投稿フォーム欄ですが、今は＆このままでは機能しません。ミッションを進める際にコピペして、そこに実装していきましょう -->
+    <form method="POST" action="">
+        お名前：<input type="text" name="name"><br>
+        コメント：<input type="text" name="comment"><br>
+        <input type="submit" name="submit" value="送信">
+    </form>
+</div>
+</div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+    </body>
+    </html>
